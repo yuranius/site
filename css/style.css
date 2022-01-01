@@ -1,0 +1,241 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 0px 0px 0px;
+  color: wheat;
+}
+
+/*?----------------------------------------------*/
+.wrapper {
+  min-height: 100%;
+  background: url("/img/fon.webp") 0 0 repeat;
+  background-attachment: fixed;
+}
+
+.block {
+  padding: 20px 20px 0px 20px;
+  max-width: 900px;
+  margin: 0px auto;
+  background-color: #1c1d25d7;
+  min-height: 3000px;
+}
+
+.block__head {
+  padding: 10px 0px 0px 0px;
+  text-align: center;
+  color: yellow;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 800;
+  text-shadow: 3px 5px 2px black;
+}
+
+.block__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-bottom: 1px solid yellow;
+}
+
+.block .menu__title {
+  font-size: 15px;
+  color: yellow;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 800;
+  text-shadow: 3px 5px 2px black;
+  padding: 0px 0px 20px 0px;
+}
+
+.block .menu__list li {
+  padding: 0.5ex 1ex;
+}
+
+.block .menu__list li :hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: aqua;
+  margin: 3px 0px 0px 0px;
+  text-shadow: 3px 5px 2px rosybrown;
+}
+
+.block .button {
+  margin: 0px 0px 15px 0px;
+}
+
+.block .button a {
+  color: yellow;
+}
+
+.block .button a:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: red;
+  padding: 5px 45px;
+  -webkit-transform: rotate 360deg;
+          transform: rotate 360deg;
+}
+
+.block .button__button {
+  padding: 2px 40px;
+  border-radius: 5px;
+  background-color: slategray;
+  position: relative;
+}
+
+.block .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 600;
+  text-shadow: 3px 5px 2px black;
+}
+
+.block .list a {
+  color: yellow;
+}
+
+.block__body {
+  margin: 10px 0px 0px 0px;
+}
+
+.block__table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2px 0px;
+}
+
+.table__one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+  color: aliceblue;
+  padding: 2px 10px;
+  background-image: linear-gradient(217deg, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0.13) 70.71%);
+  border-radius: 5px 0 0 5px;
+  font-size: 20px;
+}
+
+.table__text {
+  margin: 5px 0px 0px 0px;
+}
+
+.table__two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%;
+  color: crimson;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.table__three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  color: chartreuse;
+  font-size: 15px;
+  background-image: linear-gradient(217deg, rgba(255, 0, 0, 0.18), rgba(255, 0, 0, 0) 70.71%);
+  border-radius: 5px 0 0 5px;
+}
+
+.table__three span {
+  color: aqua;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-color: orchid;
+          text-decoration-color: orchid;
+}
